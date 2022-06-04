@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Objetivo
+Projeto que realizei durante meus estudos em React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O objetivo foi consolidar conhecimentos do ciclo de vida do React e padrões para criação de testes unitários e integrados, a fim de garantir boa qualidade e cobertura de código (com base em cenários executados pelo usuário) e como gerar outputs em cima disso (jest reports e sonarqube).
 
-## Available Scripts
+# Aplicação referência para testes em React 
+"Gerenciador de estudos" é o nome dessa aplicação. Foi criada com arquitetura "client-side" utilizando apenas React e, basicamente, permite, aos moldes de um CRUD, a manutenção do cadastro de estudos que para que o usuário planeja realizar.  
 
-In the project directory, you can run:
+Por ser dedicado a fins didáticos, não foi criado uma aplicação backend para hospedar uma base de dados, então os registros estão apenas disponíveis durante a utilização da página da aplicação.
 
-### `npm start`
+# Arquitetura
+![alt text](/wiki/arquitetura-referencia-testes-unitarios-integrados-react.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Comandos para execução
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## npm install
+Adiciona as dependências necessárias
 
-### `npm test`
+## npm run test
+Executa os testes unitários e integrados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## node sonarqube-scanner.js 
+Converte o relatório gerados pelo jest ao executar os testes para o formato esperado pelo Sonar. Além disso, já envia as informações para a instância configura no arquivo 'sonarqube-scanner.js'.
+Para configurar uma instância local do Sonar, siga os passos na documentação disponível na seção de Referências.
 
-### `npm run build`
+## npm start
+Sobe a aplicação em localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Referências
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[React Js do zero ao avançado na pratica
+](https://www.udemy.com/course/curso-reactjs/learn/lecture/32057304?start=15#overview)
 
-### `npm run eject`
+[React unit testing with Jest & React-testing-library
+](https://www.youtube.com/watch?v=3e1GHCA3GP0&t=422s&ab_channel=techsith)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[React Testing Library Tutorial #11 - Integration Tests
+](https://www.youtube.com/watch?v=6wbnwsKrnYU&ab_channel=TheNetNinja)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[How to set up SonarQube locally on a React Project](https://javascript.plainenglish.io/how-to-set-up-sonarqube-locally-on-a-react-typescript-project-ec02cd8e2626)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
