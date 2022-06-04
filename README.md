@@ -3,13 +3,18 @@ Projeto que realizei durante meus estudos em React.
 
 O objetivo foi consolidar conhecimentos do ciclo de vida do React e padrões para criação de testes unitários e integrados, a fim de garantir boa qualidade e cobertura de código (com base em cenários executados pelo usuário) e como gerar outputs em cima disso (jest reports e sonarqube).
 
+![piramide-testes](/wiki/piramide-testes.png)
+
+![sonar](/wiki/sonar.png)
+
+
 # Aplicação referência para testes em React 
 "Gerenciador de estudos" é o nome dessa aplicação. Foi criada com arquitetura "client-side" utilizando apenas React e, basicamente, permite, aos moldes de um CRUD, a manutenção do cadastro de estudos que para que o usuário planeja realizar.  
 
 Por ser dedicado a fins didáticos, não foi criado uma aplicação backend para hospedar uma base de dados, então os registros estão apenas disponíveis durante a utilização da página da aplicação.
 
 # Arquitetura
-![alt text](/wiki/arquitetura-referencia-testes-unitarios-integrados-react.png)
+![arquitetura](/wiki/arquitetura-referencia-testes-unitarios-integrados-react.png)
 
 # Comandos para execução
 
