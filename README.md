@@ -1,12 +1,13 @@
 # Objetivo
 Projeto que realizei durante meus estudos em React.
 
-O objetivo foi consolidar conhecimentos do ciclo de vida do React e padrões para criação de testes unitários e integrados, a fim de garantir boa qualidade e cobertura de código (com base em cenários executados pelo usuário) e como gerar outputs em cima disso (jest reports e sonarqube).
+O objetivo foi consolidar conhecimentos do ciclo de vida do React e padrões para criação de testes unitários e integrados, a fim de garantir boa qualidade e cobertura de código (com base em cenários executados pelo usuário)
 
 ![piramide-testes](/wiki/piramide-testes.png)
 
-![sonar](/wiki/sonar.png)
+Além disso, como gerar outputs (jest reports e sonarqube):
 
+![sonar](/wiki/sonar.png)
 
 # Aplicação referência para testes em React 
 "Gerenciador de estudos" é o nome dessa aplicação. Foi criada com arquitetura "client-side" utilizando apenas React e, basicamente, permite, aos moldes de um CRUD, a manutenção do cadastro de estudos que para que o usuário planeja realizar.  
@@ -30,7 +31,6 @@ Para configurar uma instância local do Sonar, siga os passos na documentação 
 
 ## npm start
 Sobe a aplicação em localhost:3000
-
 
 # Referências
 
