@@ -10,9 +10,9 @@ Além disso, como gerar outputs (jest reports e sonarqube):
 ![sonar](/wiki/sonar.png)
 
 # Aplicação referência para testes em React 
-"Gerenciador de estudos" é o nome dessa aplicação. Foi criada com arquitetura "client-side" utilizando apenas React e, basicamente, permite, aos moldes de um CRUD, a manutenção do cadastro de estudos que para que o usuário planeja realizar.  
+"Gerenciador de estudos" é o nome dessa aplicação. Foi criada com arquitetura "client-side" utilizando apenas React e, basicamente, permite, aos moldes de um CRUD, a manutenção do cadastro de estudos que o usuário planeja realizar.  
 
-Por ser dedicado a fins didáticos, não foi criado uma aplicação backend para hospedar uma base de dados, então os registros estão apenas disponíveis durante a utilização da página da aplicação.
+Por ser dedicado a fins didáticos, não foi criado uma aplicação backend para hospedar uma base de dados, então os registros estão apenas disponíveis durante a utilização da aplicação.
 
 # Arquitetura
 ![arquitetura](/wiki/arquitetura-referencia-testes-unitarios-integrados-react.png)
@@ -26,7 +26,7 @@ Adiciona as dependências necessárias
 Executa os testes unitários e integrados
 
 ## node sonarqube-scanner.js 
-Converte o relatório gerados pelo jest ao executar os testes para o formato esperado pelo Sonar. Além disso, já envia as informações para a instância configura no arquivo 'sonarqube-scanner.js'.
+Converte o relatório gerado pelo jest ao executar os testes para o formato esperado pelo Sonar. Além disso, já envia as informações para a instância configurada no arquivo 'sonarqube-scanner.js'.
 Para configurar uma instância local do Sonar, siga os passos na documentação disponível na seção de Referências.
 
 ## npm start
