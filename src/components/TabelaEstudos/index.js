@@ -51,12 +51,12 @@ export default function TabelaEstudos(props) {
                                 <td>{tarefa}</td>
                                 <td>
                                     <button data-testid={testButtonEditId} onClick={() => handleEdit(tarefa)}>
-                                        <div className="fas fa-edit" />
+                                        <div className="fa fa-edit" />
                                     </button>
                                 </td>
                                 <td>
                                     <button data-testid={testButtonDeleteId} onClick={() => handleDelete(tarefa)}>
-                                        <div className="fas fa-trash-alt" />
+                                        <div className="fa fa-remove" />
                                     </button>
                                 </td>
                                 <td>
